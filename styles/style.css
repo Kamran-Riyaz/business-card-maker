@@ -1,0 +1,47 @@
+body {
+  background-color: #f0f0f0;
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+}
+
+.business-card {
+  width: 3.5in;
+  height: 2in;
+  border: 1px solid #ddd;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.business-card .name {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.business-card .title {
+  font-size: 1rem;
+  color: #777;
+}
+
+.business-card .contact-info {
+  margin-top: 10px;
+}
+
+.business-card .contact-info div {
+  margin: 2px 0;
+}
+
+#name {
+  font-size: 20px;
+}
+
+.hr {
+  border-top: 1px dashed #000;
+  width: 100%;
+  margin-top: 10px;
+}
